@@ -1,0 +1,46 @@
+<div mat-dialog-title>
+	<h1>Meal Form</h1>
+</div>
+<form [formGroup]="mealForm" (ngSubmit)="saveMeal()">
+	<div mat-dialog-content>
+		<div class="flex gap-4">
+			<mat-form-field>
+				<mat-label>Name</mat-label>
+				<input matInput type="text" placeholder="" formControlName="name">
+			</mat-form-field>
+			<mat-form-field>
+				<mat-label>Price</mat-label>
+				<input matInput type="number" placeholder="" formControlName="price">
+			</mat-form-field>
+		</div>
+		<div class="flex gap-4">
+			<mat-form-field class="flex-1">
+				<mat-label>Description</mat-label>
+				<textarea matInput formControlName="description"></textarea>
+			</mat-form-field>
+		</div>
+
+		<div class="flex gap-4">
+			<mat-form-field>
+				<mat-label>Type of meal</mat-label>
+				<mat-select formControlName="type_id">
+					<mat-option *ngFor="let type of mealType ; let i = index" [value]="i+1">{{type}}</mat-option>
+				</mat-select>
+			</mat-form-field>
+			<mat-form-field>
+				<mat-label>Meal's category</mat-label>
+				<mat-select formControlName="category_id">
+					<mat-option *ngFor="let category of mealCategory ; let i = index"
+						[value]="i+1">{{category}}</mat-option>
+				</mat-select>
+			</mat-form-field>
+		</div>
+		<div>
+
+		</div>
+	</div>
+	<div mat-dialog-actions class="action">
+		<button mat-raised-button type="button">Cancel</button>
+		<button mat-raised-button color="primary" type="submit">Save</button>
+	</div>
+</form>

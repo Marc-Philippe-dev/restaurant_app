@@ -1,0 +1,55 @@
+<div class=" h-screen flex items-center justify-center">
+	<div class="bg-white p-8 rounded-xl shadow-md w-full max-w-md r">
+		<h2 class="text-2xl font-semibold mb-4 text-center">Sign Up</h2>
+
+		<form #registerForm="ngForm" (ngSubmit)="register(registerForm.value)">
+
+			<div class="mb-4">
+				<label for="name" class="block text-gray-700 text-sm font-medium mb-2">Name</label>
+				<input (ngModel)="username" name="username" type="text" id="name"
+					class="w-full border rounded-md px-3 py-2 focus:outline-none focus:border-blue-500" required>
+				<p class="text-red-500"
+					*ngIf="registerForm.controls['username']?.invalid && (registerForm.controls['username']?.touched || mouseoverLogin)">
+					This field is required</p>
+			</div>
+
+
+			<div class="mb-4">
+				<label for="email" class="block text-gray-700 text-sm font-medium mb-2">Email</label>
+				<input (ngModel)="email" (input)="onInput()" name="email" type="email" id="email"
+					class="w-full border rounded-md px-3 py-2 focus:outline-none focus:border-blue-500" required
+					pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}">
+				<p class="text-red-500"
+					*ngIf="registerForm.controls['email']?.invalid && (registerForm.controls['email']?.touched || mouseoverLogin)">
+					This field is required</p>
+				<div class="text-red-500" *ngIf="showError && registerForm.controls['email']?.hasError('pattern')">Use a
+					valid email.</div>
+			</div>
+
+
+			<div class="mb-6">
+				<label for="password" class="block text-gray-700 text-sm font-medium mb-2">Password</label>
+				<input (ngModel)="password" name="password" type="password" id="password"
+					class="w-full border rounded-md px-3 py-2 focus:outline-none focus:border-blue-500" required
+					 >
+				<p class="text-red-500"
+					*ngIf="registerForm.controls['password']?.invalid && (registerForm.controls['password']?.touched || mouseoverLogin)">
+					This field is required</p>
+			</div>
+
+			<div class="flex items-center justify-between mb-8">
+				<span class="w-full" (mouseenter)="mouseoverLogin=true" (mouseleave)="mouseoverLogin=false">
+
+					<button type="submit" [disabled]="registerForm.invalid"
+						class=" w-full py-3 bg-red-500 text-white  px-4   rounded focus:outline-none focus:shadow-outline-blue hover:bg-red-600">
+						Register
+					</button>
+				</span>
+			</div>
+			<div class="flex items-center justify-between">
+				<a [routerLink]="['/user/login']" class="w-full text-center text-red-500 hover:underline">Need an
+					account?</a>
+			</div>
+		</form>
+	</div>
+</div>

@@ -1,0 +1,11 @@
+ 
+<div class="mb-8 flex justify-center gap-x-4">
+	<button class="bg-red-600 text-white px-8 py-2 focus:outline-none poppins rounded-full mt-24 transform transition duration-300 hover:scale-105"  (click)="filterMeals('breakfast')"  >Breakfast</button>
+	<button class="bg-red-600 text-white px-8 py-2 focus:outline-none poppins rounded-full mt-24 transform transition duration-300 hover:scale-105" (click)="filterMeals('lunch')"  >Lunch</button>
+	<button class="bg-red-600 text-white px-8 py-2 focus:outline-none poppins rounded-full mt-24 transform transition duration-300 hover:scale-105" (click)="filterMeals('dinner')"  >Dinner</button>
+</div>
+
+<div class="px-4  grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 md:grid-cols-3">
+	
+	<app-meal-thumbnail *ngFor="let meal of filteredMeals" [meal]="meal"></app-meal-thumbnail>
+</div>
