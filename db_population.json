@@ -1,0 +1,155 @@
+[
+  {    "name": "Eggs Benedict",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 8.99,
+    "img_url": "assets/images/Breakfast/breakfast1.png",
+    "type_id": 1,
+	"category_id":2,
+	"user_id" :1
+  },
+  {    "name": "Breakfast Sandwich",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 9.99,
+    "img_url": "assets/images/Breakfast/breakfast2.png",
+    "type_id": 1,
+	"category_id":2,
+	"user_id" :1
+  },
+  {    "name": "Baked Chiken",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 10.99,
+    "img_url": "assets/images/Breakfast/breakfast3.png",
+    "type_id": 1,
+	"category_id":2,
+	"user_id" :1
+  },
+  {    "name": "Bagel and cream cheese",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 23.99,
+    "img_url": "assets/images/Breakfast/breakfast4.png",
+    "type_id": 1,
+	"category_id":2,
+	"user_id" :1
+  },
+  {    "name": "Fried Egg Toast Brunch",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 3.99,
+    "img_url": "assets/images/Breakfast/breakfast5.png",
+    "type_id": 1,
+	"category_id":2,
+	"user_id" :1
+  },
+  {    "name": "Toast Croissant Fried Egg",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 19.99,
+    "img_url": "assets/images/Breakfast/breakfast6.png",
+    "type_id": 1,
+	"category_id":2,
+	"user_id" :1
+  },
+  {    "name": "Beef Steak",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 15.99,
+    "img_url": "assets/images/lunch/lunch1.png",
+    "type_id": 2,
+	"category_id":2,
+	"user_id" :1
+  },
+  {    "name": "Honey with Peppers",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 7.99,
+    "img_url": "assets/images/lunch/lunch2.png",
+    "type_id": 2,
+	"category_id":2,
+	"user_id" :1
+  },
+  {    "name": "Tarrgaon Rubbed Salmon",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 7.99,
+    "img_url": "assets/images/lunch/lunch3.png",
+    "type_id": 2,
+	"category_id":2,
+	"user_id" :1
+  },
+  {
+    "name": "Indian Lunch",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 8.99,
+    "img_url": "assets/images/lunch/lunch4.png",
+    "type_id": 2,
+	"category_id":2,
+	"user_id" :1
+  },
+  {
+    "name": "Fried Chicken Bento",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 13.99,
+    "img_url": "assets/images/lunch/lunch5.png",
+    "type_id": 2,
+	"category_id":2,
+	"user_id" :1
+  },
+  {
+    "name": "healthy Meal Plan",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 83.99,
+    "img_url": "assets/images/lunch/lunch6.png",
+    "type_id": 2,
+	"category_id":2,
+	"user_id" :1
+  },
+  {
+    "name": "Baked Chicken",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 66.99,
+    "img_url": "assets/images/Dinner/dinner1.png",
+    "type_id": 3,
+	"category_id":2,
+	"user_id" :1
+  },
+  {
+    "name": "Lemony Salmaon Piccata",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 56.99,
+    "img_url": "assets/images/Dinner/dinner2.png",
+    "type_id": 3,
+	"category_id":2,
+	"user_id" :1
+  },
+  {
+    "name": "Garlic Butter Baked Salmon",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 3.99,
+    "img_url": "  assets/images/Dinner/dinner3.png",
+    "type_id": 3,
+	"category_id":2,
+	"user_id" :1
+  },
+  {
+    "name": "French Fried with Cheese",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 23.99,
+    "img_url": "assets/images/Dinner/dinner4.png",
+    "type_id": 3,
+	"category_id":2,
+	"user_id" :1
+  },
+  {
+    "name": "Chicken Tenderion",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 12.99,
+    "img_url": "assets/images/Dinner/dinner5.png",
+    "type_id": 3,
+	"category_id":2,
+	"user_id" :1 
+  },
+  {
+    "name": "Lentil Salad",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum dolorem, ex minima saepe quam, vero tempore eveniet ipsum ratione, vitae natus laudantium non repellat? Sunt facilis modi illo quidem nisi similique omnis dolorum, debitis deleniti non eum libero praesentium suscipit adipisci molestias odit saepe inventore. Magni dolores aspernatur consequuntur impedit!",
+    "price": 9.99,
+    "img_url": "assets/images/Dinner/dinner6.png",
+    "type_id": 3,
+	"category_id":2,
+	"user_id" :1
+  }
+]

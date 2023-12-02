@@ -24,6 +24,7 @@
 					This field is required</p>
 				<div class="text-red-500" *ngIf="showError && registerForm.controls['email']?.hasError('pattern')">Use a
 					valid email.</div>
+
 			</div>
 
 
@@ -31,10 +32,17 @@
 				<label for="password" class="block text-gray-700 text-sm font-medium mb-2">Password</label>
 				<input (ngModel)="password" name="password" type="password" id="password"
 					class="w-full border rounded-md px-3 py-2 focus:outline-none focus:border-blue-500" required
-					 >
+					pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
 				<p class="text-red-500"
-					*ngIf="registerForm.controls['password']?.invalid && (registerForm.controls['password']?.touched || mouseoverLogin)">
+					*ngIf="registerForm.controls['password']?.dirty && registerForm.controls['password']?.invalid && (registerForm.controls['password']?.touched || mouseoverLogin)">
 					This field is required</p>
+				<p class="text-red-500" *ngIf="registerForm.controls['password']?.hasError('pattern')">
+					<li>At least 8 characters</li>
+					<li>At least one uppercase letter</li>
+					<li>At least one lowercase letter</li>
+					<li>At least one digit</li>
+					<li>Special characters</li>
+				</p>
 			</div>
 
 			<div class="flex items-center justify-between mb-8">
@@ -53,3 +61,7 @@
 		</form>
 	</div>
 </div>
+
+<!-- <pre>
+	password :{{registerForm.controls['password']?.hasError('pattern')}}
+</pre> -->

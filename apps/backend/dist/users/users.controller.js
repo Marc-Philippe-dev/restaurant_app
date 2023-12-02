@@ -29,22 +29,13 @@ let UsersController = class UsersController {
     create(createUserDto, user, req) {
         return this.usersService.create(createUserDto);
     }
-    findAll() {
-        return this.usersService.findAll();
-    }
-    findOne(id) {
-        return this.usersService.findOne(+id);
-    }
     update(id, updateUserDto) {
         return this.usersService.update(+id, updateUserDto);
-    }
-    remove(id) {
-        return this.usersService.remove(+id);
     }
 };
 __decorate([
     (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard, roles_guard_1.RolesGuard),
-    (0, roles_decorator_1.Roles)(role_enum_1.Role.CLIENT),
+    (0, roles_decorator_1.Roles)(role_enum_1.Role.ADMIN),
     (0, common_1.Post)(),
     __param(0, (0, common_1.Body)()),
     __param(1, (0, get_user_decorator_1.GetUser)()),
@@ -54,19 +45,6 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], UsersController.prototype, "create", null);
 __decorate([
-    (0, common_1.Get)(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", void 0)
-], UsersController.prototype, "findAll", null);
-__decorate([
-    (0, common_1.Get)(':id'),
-    __param(0, (0, common_1.Param)('id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", void 0)
-], UsersController.prototype, "findOne", null);
-__decorate([
     (0, common_1.Patch)(':id'),
     __param(0, (0, common_1.Param)('id')),
     __param(1, (0, common_1.Body)()),
@@ -74,13 +52,6 @@ __decorate([
     __metadata("design:paramtypes", [String, update_user_dto_1.UpdateUserDto]),
     __metadata("design:returntype", void 0)
 ], UsersController.prototype, "update", null);
-__decorate([
-    (0, common_1.Delete)(':id'),
-    __param(0, (0, common_1.Param)('id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
-    __metadata("design:returntype", void 0)
-], UsersController.prototype, "remove", null);
 UsersController = __decorate([
     (0, common_1.Controller)('users'),
     __metadata("design:paramtypes", [users_service_1.UsersService])
