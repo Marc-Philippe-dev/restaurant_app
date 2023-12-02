@@ -1,4 +1,4 @@
-# A restaurant APp with NestJS and Angular
+# A restaurant APP with NestJS and Angular
 
 An application that allow a restaurant presentation and management
 
